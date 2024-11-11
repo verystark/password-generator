@@ -1,0 +1,1 @@
+Chrome Extension for creating strong passwords from 4 to 32 characters.
