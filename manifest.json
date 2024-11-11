@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Password Generator",
+    "version": "6.9",
+    "description": "Generate secure password quickly",
+    "action": {
+        "default_popup": "app.html",
+        "default_icon": {
+            "16": "icons/lock.png",
+            "48": "icons/lock.png",
+            "128": "icons/lock.png"
+        }
+    },
+    "permissions": []
+}
