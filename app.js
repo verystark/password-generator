@@ -1,7 +1,14 @@
 const btn = document.querySelector('button');
+const slider = document.getElementById("myRange");
+const output = document.getElementById("myLength");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+    output.innerHTML = slider.value;
+}
 
 btn.onclick = () => {
-    newPassword.value = generatePassword(24);
+    newPassword.value = generatePassword(slider.value);
 };
 
 const newPassword = document.getElementById('myInput');
