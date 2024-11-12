@@ -1,26 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
+    font: Arial, sans-serif;
     text-align: center;
     width: 320px;
-    height: 500px;
+    height: 280px;
     padding: 0px;
-    background-color: black;
+    background-color: #000026;
 }
 
 .header {
-    font-size: 18px;
+    font-size: 20px;
     padding: 4px 16px;
     color: white;
+    margin-top: 20px;
 }
 
 button {
-    background-color: white;
-    color: black;
+    background-color: rgb(28, 28, 255);
+    color: white;
     border: none;
-    padding: 10px 24px;
+    padding: 12px 30px;
     text-align: center;
     border-radius: 35px;
     cursor: pointer;
+    font-size: 16px;
+    margin-top: 25px;
 }
 
 button:hover {
@@ -35,15 +38,15 @@ input[type="text"] {
     font-size: 16px;
     background-color: white;
     color: #333;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 15px;
-    position: relative 
+    position: relative;
 }
 
 .copy-icon {
     position: absolute;
     right: 15px;
-    top: 77px;
+    top: 91px;
     transform: translateY(-50%);
     cursor: pointer;
     font-size: 15px; 
@@ -65,7 +68,7 @@ input[type="text"] {
     width: 280px;
     background: black;
     outline: none;
-    margin-top: 20px;
+    margin-top: 0px;
     border-radius: 10px;
     background: white;
 }
@@ -83,6 +86,29 @@ input[type="text"] {
 
 p {
     color: white;
-    margin-top: 10px;
+    margin-top: 8px;
+    font-size: 13px;
 }
 
+.filters {
+    margin-top: 15px;
+}
+
+.filters label {
+    position: relative;
+    color: white;
+    font-size: 14px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.filters input {
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+    accent-color: white;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+}
